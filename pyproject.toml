@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "DWLAT"
+version = "0.1.0"
+description = ""
+authors = ["futabato <01futabato10@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydicom = "^2.4.4"
+ruff = "^0.3.5"
+matplotlib = "*"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
